@@ -24,9 +24,12 @@ Utworzyć trzy pule obiektów reprezentujących trzy rodzaje konfigurowalnych
    - po skompletowaniu wszystkich niezbędnych obiektów z puli 
      wątek wykonuje obliczenia, po czym zwraca obiekty do puli i się kończy.
 
+Czy w opisanym powyżej rozwiązaniu możemy uzyskać jakieś przewagi, jeżeli zastosujemy fabryki? 
+Jeżeli tak/nie, przedstawić pomiary/testy potwierdzające.
+
 Zbadać optymalność algorytmu zarządzania elementami puli oraz 
 zależność liczby wątków obliczających ich złożoności obliczeniowej i 
 liczby niezbędnych obiektów w pulach.
 
-Do zaproponowanych rozwiązań załączyć odpowiednie testy wydajnościowe / funkcjonalne.
+Do zaproponowanych rozwiązań załączyć odpowiednie testy wydajnościowe / funkcjonalne / jednostkowe.
 Można używać narzędzi do profilowania kodu dedykowanych danej technologii. 
